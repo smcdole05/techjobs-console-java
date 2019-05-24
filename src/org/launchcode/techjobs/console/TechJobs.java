@@ -120,7 +120,7 @@ public class TechJobs {
             aJob = aJob + "*****\n\n";
             System.out.println(aJob);
         }
-        if (aJob == "*****\n") {
+        if (aJob == "") {
             System.out.println("No jobs found.");
         }
     }
